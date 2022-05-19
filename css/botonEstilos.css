@@ -1,0 +1,62 @@
+
+.board_btn{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container_btn {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+
+}
+
+.imagen_btn {
+  width: auto;
+  height: auto;
+
+}
+#selecion_btn{
+  background-color: rgb(175, 224, 180);
+  border: 1px solid rgb(78, 96, 150);
+border-radius: 28px;
+width: 94%
+
+}
+.btn_opciones{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+
+}
+.btn_opciones{
+
+ background: rgb(118, 141, 135) linear-gradient(rgb(118, 141, 135) 5%, rgb(108, 124, 124) 100%) repeat scroll 0% 0%;
+  border-radius: 5px;
+  border: 1px solid rgb(86, 105, 99);
+   display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+     padding: 11px 23px;
+     text-decoration: none;
+      text-shadow: rgb(43, 102, 94) 0px -1px 0px;
+
+}
+.btn_opciones:hover {
+  background-color: black;
+  color: white;
+}
